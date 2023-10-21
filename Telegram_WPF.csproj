@@ -1,0 +1,68 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Image\circled-blue.png" />
+    <None Remove="Image\circled_grey.png" />
+    <None Remove="Image\icons8-double-tick-50.png" />
+    <None Remove="Image\icons8-ellipsis-30.png" />
+    <None Remove="Image\icons8-friends-48.png" />
+    <None Remove="Image\icons8-menu-50.png" />
+    <None Remove="Image\icons8-microphone-30.png" />
+    <None Remove="Image\icons8-paperclip-48.png" />
+    <None Remove="Image\icons8-search-50.png" />
+    <None Remove="Image\icons8-smile-32.png" />
+    <None Remove="Image\icons8-smiling-48.png" />
+    <None Remove="Image\paper-pin.png" />
+    <None Remove="Image\pin.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Image\circled-blue.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Image\circled_grey.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Image\icons8-double-tick-50.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Image\icons8-ellipsis-30.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Image\icons8-friends-48.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Image\icons8-menu-50.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Image\icons8-microphone-30.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Image\icons8-paperclip-48.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Image\icons8-search-50.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Image\icons8-smile-32.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Image\icons8-smiling-48.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Image\paper-pin.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Image\pin.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+</Project>
